@@ -7,6 +7,8 @@ import MarketOpportunity from "./pages/marketOpportunity/MarketOpportunity";
 import Product from "./pages/product/Product";
 import MainLayout from "./layouts/MainLayout";
 import PageNotFound from "./components/page404/page404";
+import ProductMenu from "./components/menu/productMenu/productMenu";
+
 
 const router = createBrowserRouter([
   {
@@ -59,6 +61,8 @@ const router = createBrowserRouter([
     element: (
       <MainLayout>
         <Product />
+        <ProductMenu/>
+
       </MainLayout>
     ),
     errorElement : <PageNotFound/>

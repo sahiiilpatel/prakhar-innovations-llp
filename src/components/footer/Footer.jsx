@@ -45,11 +45,11 @@ function Footer() {
       </div>
 
       <div className="footer-bottom">
-        <p className="footer-text">© 2024 Your Company Name. All rights reserved.</p>
+        <p className="footer-text">© 2024 Prakhar Inovation All rights reserved.</p>
         <div className="footer-socials">
           <a href="https://facebook.com" className="footer-icon">Facebook</a>
           <a href="https://twitter.com" className="footer-icon">Twitter</a>
-          <a href="https://linkedin.com" className="footer-icon">LinkedIn</a>
+          <a href="https://www.instagram.com/prakhar_innovations/" className="footer-icon">instagram</a>
         </div>
       </div>
     </footer>

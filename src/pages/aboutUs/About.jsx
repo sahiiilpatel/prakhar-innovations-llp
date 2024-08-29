@@ -1,12 +1,27 @@
 import React from 'react';
 import "../aboutUs/about.css";
+import Card from '../../components/menu/aboutCard/aboutCard';
 
 function About() {
   return (
     <section>
-      <h2 className='about-heading'>About Us</h2>
-      <p className='about-paragraph'>We specialize in innovative medical solutions designed to tackle global health challenges like Vitamin A deficiency, focusing on both prevention and effective treatment.</p>
+      
+      <div className="acards-container">
+      <Card 
+        name="Dr Rajesh Mehta(MBBS MD)" 
+        email="drrajeshmehta222@gmail.com" 
+        occupation="Project Head" 
+        photo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQU2JVsHZHjPGoLBg285EtbGqGB0AES72vGsQ&s" 
+      />
+      <Card 
+        name="Poorn Mehta" 
+        email="poornmehta121@gmail.com" 
+        occupation="Product Manager" 
+        photo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmPiDZJJU9_7ug4uw9r-868MM80qtWRmU_8Q&s" 
+      />
+    </div>
     </section>
+
   );
 }
 
