@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import { MdMarkEmailUnread } from 'react-icons/md';
 import { FaPhoneAlt } from 'react-icons/fa';
 import { FaLocationDot } from "react-icons/fa6";
-import './Footer.css'; // Import your CSS file
+import './footer.css'; // Import your CSS file
 
 function Footer() {
   return (
