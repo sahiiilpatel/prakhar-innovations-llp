@@ -1,0 +1,44 @@
+header {
+    background-color: #333;
+    padding: 1rem;
+    color: white;
+    text-align: center;
+  }
+  
+  nav ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:45px;
+    width: 100%;
+  }
+
+  nav ul li{
+    list-style: none;
+  }
+  
+  nav ul li a{
+    list-style: none;
+    text-decoration: none;
+    color: white;
+  }
+  
+  section {
+    padding: 2rem;
+    text-align: center;
+  }
+  
+  .buy-button {
+    padding: 0.5rem 1rem;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  
+ 
+
+.active {
+  font-weight: bold;
+  color: #3498db;
+}
