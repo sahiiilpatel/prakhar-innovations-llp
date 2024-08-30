@@ -39,7 +39,7 @@ function Footer() {
           </div>
           <div className='icon-container'>
           <FaLocationDot />
-            <p className="footer-text">Address: E-01, FF Sahjanand Complex, Dehgam Modasa Road, Dehgam, Gandhi Nagar, Gujarat, India, 382305</p>
+            <p className="footer-text">Address: E-01, 1st Floor Sahjanand Complex, Dehgam-Modasa Road, Dehgam, Gandhi Nagar, Gujarat, India, 382305</p>
           </div>
         </div>
       </div>

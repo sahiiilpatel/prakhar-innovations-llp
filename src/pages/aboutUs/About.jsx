@@ -9,7 +9,7 @@ function About() {
       <div className="acards-container">
       <Card 
         name="Dr Rajesh Mehta(MBBS MD)" 
-        email="drrajeshmehta222@gmail.com" 
+        email="rajeshforhealth@gmail.com" 
         occupation="Project Head" 
         photo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQU2JVsHZHjPGoLBg285EtbGqGB0AES72vGsQ&s" 
       />

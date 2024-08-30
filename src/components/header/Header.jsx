@@ -1,6 +1,8 @@
 import React from "react";
 import { NavLink, useLocation } from "react-router-dom";
 import "../header/header.css";
+import logo from '../data/logo.png'
+
 
 function Header() {
 
@@ -10,6 +12,9 @@ function Header() {
     <header>
       <nav>
         <ul>
+         
+        <img src={logo} alt="Logo" className="logo" />
+        
           <li>
             <NavLink
               to="/"
@@ -59,6 +64,7 @@ function Header() {
               Contact
             </NavLink>
           </li>
+          
         </ul>
       </nav>
     </header>

@@ -1,0 +1,9 @@
+/* src/components/CardContainer.css */
+
+.card-container {
+    display: flex;
+    justify-content: space-around; /* Center the cards and add space around them */
+    flex-wrap: wrap; /* Allows the cards to wrap on smaller screens */
+    margin: 10px; /* Adds some margin around the container */
+  }
+  

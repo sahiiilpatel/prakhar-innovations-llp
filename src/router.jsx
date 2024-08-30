@@ -8,6 +8,9 @@ import Product from "./pages/product/Product";
 import MainLayout from "./layouts/MainLayout";
 import PageNotFound from "./components/page404/page404";
 import ProductMenu from "./components/menu/productMenu/productMenu";
+import InvestorForm from "./components/menu/investorForm/InvestorForm";
+import CardContainer from "./components/menu/BusinessCard/CardContainer";
+
 
 
 const router = createBrowserRouter([
@@ -42,6 +45,9 @@ const router = createBrowserRouter([
     path: "/investors",
     element: (
       <MainLayout>
+        <CardContainer/>
+      <InvestorForm/>
+
         <Investors />
       </MainLayout>
     ),
